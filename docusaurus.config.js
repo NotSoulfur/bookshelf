@@ -2,7 +2,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 const config = {
   title: 'Bookshelf',
-  tagline: 'The performance wiki for Pojavlauncher',
+  tagline: 'The performance wiki for Minecraft',
   favicon: 'img/bookshelf.ico',
   url: 'https://github.com',
   baseUrl: '/bookshelf/',
