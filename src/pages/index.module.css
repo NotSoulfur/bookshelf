@@ -1,0 +1,46 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* index.module.css */
+.centerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  min-height: 40vh; /* Ensure it takes up full viewport height */
+  padding: 20px; /* Add padding around the content */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+.contentPadding {
+  padding-bottom: 2rem; /* Add space at the bottom of the content */
+  width: 100%; /* Ensure the content takes the full width */
+}
+
+.markdownContent {
+  max-width: 800px; /* Limit the width of the markdown content */
+  margin: 0 auto; /* Center the markdown content */
+  padding-bottom: 0rem; /* Add space at the bottom of the content */
+}
