@@ -3,7 +3,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Bookshelf',
   tagline: 'The performance wiki for Pojavlauncher',
-  favicon: 'img/pojav.ico',
+  favicon: 'img/bookshelf.ico',
   url: 'https://github.com',
   baseUrl: '/bookshelf/',
   organizationName: 'Soulfur',
@@ -35,7 +35,7 @@ const config = {
       title: 'Bookshelf',
       logo: {
         alt: 'Pojav',
-        src: 'img/pojav.ico',
+        src: 'img/bookshelf.ico',
       },
       items: [
         {
